@@ -1,59 +1,35 @@
-Time Series Analysis Application using R Shiny
+📊 Time Series Analysis App using R Shiny
 This repository contains an interactive R Shiny web application designed for the exploration and modeling of time series data. Developed as part of an academic project, the application implements a comprehensive suite of techniques including decomposition, transformation, ARIMA-based models, and volatility modeling through ARCH and GARCH frameworks. It also leverages Python integration via the reticulate package to extend analytical capabilities.
 
-Key Features
-Time Series Decomposition (Additive and Multiplicative)
-
-Moving Average Smoothing
-
-Differencing and Seasonal Differencing
-
-Autocorrelation and Partial Autocorrelation (ACF and PACF) Plots
-
-Logarithmic Transformation
-
-AR, MA, ARMA, and ARIMA Modeling
-
-Seasonal ARIMA (SARIMA) Modeling
-
-ARCH and GARCH Models for Volatility Estimation
-
-Forecasting with Confidence Intervals
-
-Interactive Controls for Model Parameters
-
-Python Integration via reticulate for Enhanced Functionality
-
-Libraries Used
-R Packages
-shiny — Interactive web application framework
-
-forecast — Time series forecasting methods
-
-tseries — Statistical tools for time series analysis, including ARCH/GARCH
-
-rugarch — Advanced GARCH modeling
-
+🔍 Key Features
+📈 Time Series Decomposition (Additive/Multiplicative)
+🔁 Moving Average Smoothing
+🔂 Differencing and Seasonal Differencing
+🔍 ACF and PACF plots
+⚙ Log Transformation
+🧠 AR, MA, ARMA, ARIMA Modeling
+📆 SARIMA (Seasonal ARIMA) Modeling
+📊 ARCH and GARCH Models for volatility
+📉 Forecasting with confidence intervals
+🔧 Interactive input controls for parameters
+🐍 Python Integration via reticulate for extended functionality
+📦 Libraries Used
+R Packages:
+shiny — Interactive web framework
+forecast — Time series forecasting
+tseries — Time series tools and ARCH/GARCH modeling
+rugarch — Advanced GARCH models
 ggplot2 — Data visualization
-
-TTR — Technical trading rules and smoothing
-
-zoo — Infrastructure for regular and irregular time series
-
-reticulate — Integration between R and Python
-
-xts — Extension of zoo for uniform time series handling
-
-gridExtra — Arranging multiple ggplot2 visualizations
-
-Python Packages (via reticulate)
+TTR — Technical Trading Rules for smoothing
+zoo — Time series objects
+reticulate — Integrate Python with R
+xts — Extensible time series
+gridExtra — Combine multiple ggplots
+Python Packages (via reticulate):
 pandas
-
 numpy
-
-Note: Ensure Python is installed and properly configured with the required packages for full functionality.
-
-How to Run the App
+(Ensure Python is installed and configured with these packages)
+🚀 How to Run the App
 1. Clone the Repository
 git clone https://github.com/your-username/time-series-shiny-app.git
 cd time-series-shiny-app
@@ -62,6 +38,8 @@ install.packages(c("shiny", "forecast", "tseries", "rugarch",
                    "ggplot2", "TTR", "zoo", "reticulate", "xts", "gridExtra"))
 3. Run the App in R
 shiny::runApp("RSHINY.R")
-Ensure Python is configured properly with reticulate.
-Credits
-This application was developed as part of the Time Series Analysis coursework by a group of five MSc Statistics students. The project involved collaborative design, development, and implementation of time series analysis techniques using R Shiny, contributing to both academic understanding and practical experience.
+✅ Ensure Python is configured properly with reticulate.
+
+👥 Credits
+This app was developed as part of our Time Series Analysis coursework by a team of five MSc Statistics students.
+We collaboratively designed and implemented this Shiny app as part of our academic project.
